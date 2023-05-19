@@ -6,5 +6,4 @@ In a bidirectional RNN, the input sequence is fed into two separate RNNs: one RN
 
 By considering both past and future context, bidirectional RNNs can capture dependencies and patterns that may be missed by unidirectional RNNs. They are commonly used in tasks where the entire sequence is available from the beginning, such as natural language processing tasks like sentiment analysis, named entity recognition, and machine translation.
 
-
-![Screenshot from 2023-05-19 09-11-57](https://github.com/sankalpvarshney/biRNN-Sentiment-Analysis/assets/41926323/016501a9-132b-4ed7-a5a6-3f1d5313dbae)
+![Screenshot from 2023-05-19 09-13-49](https://github.com/sankalpvarshney/biRNN-Sentiment-Analysis/assets/41926323/93a50eaf-cf0c-4db9-ae16-958df4211577)
