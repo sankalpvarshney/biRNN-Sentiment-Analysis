@@ -2,4 +2,6 @@ tensorflow-gpu==2.4.0
 tensorflow-datasets
 pyyaml
 matplotlob
+fastapi
+uvicorn
 -e .
