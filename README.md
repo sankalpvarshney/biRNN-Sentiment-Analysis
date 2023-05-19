@@ -48,4 +48,4 @@ uvicorn main:app --host '0.0.0.0' --port 3354
 
  ## Output
 
- 
+ ![Screenshot from 2023-05-19 10-09-16](https://github.com/sankalpvarshney/biRNN-Sentiment-Analysis/assets/41926323/bd18adc1-1cee-4808-b49b-058f697c9dda)
