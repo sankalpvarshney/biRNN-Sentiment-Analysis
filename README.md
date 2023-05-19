@@ -43,7 +43,9 @@ For te deployment of this service execute the below command
 ```bash
 uvicorn main:app --host '0.0.0.0' --port 3354
 ```
- You can use any available port on the sysytem
+ You can use any available port on the sysytem.
+
+ And in the last open the browser hit the url http://0.0.0.0:3354/docs
 
 
  ## Output
