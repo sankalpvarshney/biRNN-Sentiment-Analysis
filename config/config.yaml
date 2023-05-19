@@ -2,7 +2,7 @@ data:
   dataset_name: imdb_reviews
 train:
   buffer_size: 10000
-  batch_size: 1024
+  batch_size: 64
   vocab_size: 1000
   output_dim: 64
   epochs: 10

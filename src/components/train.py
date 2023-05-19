@@ -94,6 +94,11 @@ class SentimentTraining():
         
         history = self.model.fit(self.train_ds, epochs=self.epochs, validation_data=self.test_ds,validation_steps=30,callbacks=callback_list)
 
+        self.get_plot(history,'accuracy')
+        self.get_plot(history,'loss')
+
+        self.evaluation()
+
     def evaluation(self):
 
         test_loss, test_acc = self.model.evaluate(self.test_ds)
@@ -110,8 +115,7 @@ class SentimentTraining():
         plt.ylabel(f"{metric} -->")
         plt.legend([metric, f'val_{metric}'])
 
-
-
+        plt.savefig(f'artifact/graphs/{metric}.png')
 
 
 if __name__ == "__main__":
